@@ -19,7 +19,7 @@
   {
     \key g \major
     \relative c'' {
-    d4 d
+    d4 b d b a8 d a d a d fis4 
     }
   }
 >>
