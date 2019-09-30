@@ -1,7 +1,12 @@
 \header {
-  title = "Untitled"
-  composer = "Composer"
+  title = "This Song"
+  composer = "Me"
 }
+
+\key f \major
+
+\numericTimeSignature
+\time 4/4
 
 \score {
   \relative c' {
