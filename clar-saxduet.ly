@@ -12,7 +12,7 @@
   \new GrandStaff <<
     \new Staff \with {
     instrumentName = \markup { "B" \smaller \flat "Clarinet" }}
-    {
+    { \tempo "Allegro" 4 = 120
       \key c \major
       \numericTimeSignature
     \relative c'''{
@@ -34,7 +34,7 @@
     c16-\mf( d c b) c4( e2)
     d16( e d c) d4( f2)
     e4( g e c)
-    d \afterGrace b-\trill {c16( d)} c2 
+    d \afterGrace b-\trill {a16( b)} c2 
     } % \repeat
    \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
    \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
