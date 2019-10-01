@@ -32,7 +32,7 @@
     e4( g e c)
     d b c2
     } % \repeat
-    c8( e) c( e) c4( a)
+    c8-\mp( e) c( e) c4( a)
     g8( b) g( b) g4( e)
     c'8( e) c( e) c4( a)
     g8( d) g( d) e2
@@ -40,11 +40,11 @@
     d c
     e f)
     g8( d) g( d) e2
-    e'8 e16( f g f e d) c8 c16( d e d c b
+    e'8-\f e16( f g f e d) c8 c16( d e d c b
     a g f e) d8( g) f4( e)
     d'8 d16( e f e d c) b8 b16( c d c b a) 
     g8( a b g) b4( c)
-    c1
+    c1-\mf
     c4( b) c2
     b1
     b4( g) d( e)
@@ -73,7 +73,7 @@
     e') e( c) c( a) a( fis) fis(
     g) g( b) b( g) g( d') d(
     a') a( fis) fis( g2)
-    b,2( c
+    b,2-\mp( c
     a g
     b c)
     \tuplet 3/2 {a8( b a)} e8( fis) g2
@@ -86,7 +86,7 @@
     fis1
     fis4( d) a( b)
     b8 b16( c d c b a) g8 g16( a b a g fis)
-    e8( c) fis( d) c4( b)
+    e8( c) fis( d) c4-\trill( b)
     a'8 a16( b c b c g) fis8 fis16( g a g fis e)
     d8( e fis d) a'4( g)
     }
