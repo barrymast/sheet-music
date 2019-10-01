@@ -24,6 +24,7 @@
     cis4( d) g,2
     f4( e) d8( e f d)
     c( g b d) c2
+    \break
     g'8-\mp g( e) e( g) g( c) c(
     a) a( f) f( d) d( b) b(
     c) c( e) e( c) c( g') g(
@@ -33,14 +34,17 @@
     e4( g e c)
     d \afterGrace b-\trill {c16( d)} c2 
     } % \repeat
+    \break
     c8-\mp( e) c( e) c4( a)
     g8( b) g( b) g4( e)
     c'8( e) c( e) c4( a)
     g8( d) g( d) e2
-    e( f
+    \break
+    e(\cresc f
     d c
     e f)
     g8( d) g( d) e2
+    \break
     e'8-\f e16( f g f e d) c8 c16( d e d c b
     a g f e) d8( g) f4( e)
     d'8 d16( e f e d c) b8 b16( c d c b a) 
@@ -78,7 +82,7 @@
     a g
     b c)
     \tuplet 3/2 {a8( b a)} e8( fis) g2
-    d'( e
+    d'(\cresc e
     c b
     d e)
     \tuplet 3/2 {a,8( b a)} e( fis) g2
@@ -88,7 +92,7 @@
     fis4( d) a( b)
     b8 b16( c d c b a) g8 g16( a b a g fis)
     e8( c) fis( d) c4-\trill( b)
-    a'8 a16( b c b c g) fis8 fis16( g a g fis e)
+    a'8 a16( b c b a g) fis8 fis16( g a g fis e)
     d8( e fis d) a'4(\> g)\!
     }
   }
