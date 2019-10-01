@@ -56,6 +56,7 @@
     \key g \major
     \numericTimeSignature
     \relative c'' {
+    #(define afterGraceFraction (cons 15 16))
     d4( b) d( b)
     a8( d) a( d) a( d) fis4
     c8( a b d) fis2 
