@@ -14,6 +14,7 @@
       \key c \major
       \numericTimeSignature
     \relative c'''{
+    #(define afterGraceFraction (cons 15 16))
     \repeat volta 2 {
     c8-\mf( g) c( g) e( c) e( c)
     b b16( c d c b a) g2
@@ -30,7 +31,7 @@
     c16-\mf( d c b) c4( e2)
     d16( e d c) d4( f2)
     e4( g e c)
-    d b c2
+    d \afterGrace b-\trill {c16( d)} c2 
     } % \repeat
     c8-\mp( e) c( e) c4( a)
     g8( b) g( b) g4( e)
@@ -47,7 +48,7 @@
     c1-\mf
     c4( b) c2
     b1
-    b4( g) d( e)
+    b4( g) d(\> e)\!
     \bar "|."}
   }
   \new Staff \with {
@@ -88,7 +89,7 @@
     b8 b16( c d c b a) g8 g16( a b a g fis)
     e8( c) fis( d) c4-\trill( b)
     a'8 a16( b c b c g) fis8 fis16( g a g fis e)
-    d8( e fis d) a'4( g)
+    d8( e fis d) a'4(\> g)\!
     }
   }
 >>
