@@ -6,10 +6,11 @@
 
 \score {
   \new GrandStaff <<
-  \new Staff \with {
+    \new Staff \with {
     instrumentName = \markup { "B" \smaller \flat "Clarinet" }}
     {
       \key c \major
+      \numericTimeSignature
     \relative c'''{
     \repeat volta 2 {
     c8( g) c( g) e( c) e( c)
@@ -51,6 +52,7 @@
   instrumentName = #"Alto Sax "}
   {
     \key g \major
+    \numericTimeSignature
     \relative c'' {
     d4 b d b
     a8 d a d a d fis4
