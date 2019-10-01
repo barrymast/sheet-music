@@ -5,6 +5,8 @@
 }
 \paper {
   #(set-paper-size "letter")
+  top-margin = 1\in
+  bottom-margin = 1\in  
 }
 \score {
   \new GrandStaff <<
@@ -34,7 +36,10 @@
     e4( g e c)
     d \afterGrace b-\trill {c16( d)} c2 
     } % \repeat
-    \break
+   \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
+   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+   \mark \markup { \italic "Fine"}
+   \pageBreak
     c8-\mp( e) c( e) c4( a)
     g8( b) g( b) g4( e)
     c'8( e) c( e) c4( a)
@@ -52,7 +57,7 @@
     c1-\mf
     c4( b) c2
     b1
-    b4( g) d(\> e)\!
+    b4( g) d(\> e)\!\fermata
     \bar "|."}
   }
   \new Staff \with {
@@ -93,8 +98,11 @@
     b8 b16( c d c b a) g8 g16( a b a g fis)
     e8( c) fis( d) c4-\trill( b)
     a'8 a16( b c b a g) fis8 fis16( g a g fis e)
-    d8( e fis d) a'4(\> g)\!
-    }
+    d8( e fis d) a'4(\> g)\!\fermata
+   \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
+   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+   \mark \markup { \italic "D.C. al Fine"}
+   }
   }
 >>
 
