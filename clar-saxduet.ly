@@ -48,7 +48,7 @@
     c4( b) c2
     b1
     b4( g) d( e)
-    }
+    \bar "|."}
   }
   \new Staff \with {
   instrumentName = #"Alto Sax "}
@@ -63,32 +63,32 @@
     g8( d fis a) g2
     d8( b) d( b) d4( g,)
     a8( d) a( d) a( d) fis4
-    c8( a b d) \afterGrace fis2-\trill {e16[ fis]}
+    c8( a b d) \afterGrace fis2-\trill {e16( fis)}
     g1 
     g16( a g fis) g4( d'2)
     a16( b a g) a4( c2)
     b4( d b g)
-    a \afterGrace fis-\trill {e16[ fis]} g2
-    d8 d b b d d g, g
-    e' e c c a a fis fis
-    g g b b g g d' d
-    a' a fis fis g2
-    b,2 c
+    a \afterGrace fis-\trill {e16( fis)} g2
+    d8-\mp d( b) b( d) d( g,) g(
+    e') e( c) c( a) a( fis) fis(
+    g) g( b) b( g) g( d') d(
+    a') a( fis) fis( g2)
+    b,2( c
     a g
-    b c
-    \tuplet 3/2 {a8 b a} e8 fis g2
-    d' e
+    b c)
+    \tuplet 3/2 {a8( b a)} e8( fis) g2
+    d'( e
     c b
-    d e
-    \tuplet 3/2 {a,8 b a} e fis g2
+    d e)
+    \tuplet 3/2 {a,8( b a)} e( fis) g2
     g'1-\f
-    g4 fis g2
+    g4( fis) g2
     fis1
-    fis4 d a b
-    b8 b16 c d c b a g8 g16 a b a g fis
-    e8 c fis d c4 b
-    a'8 a16 b c b c g fis8 fis16 g a g fis e
-    d8 e fis d a'4 g
+    fis4( d) a( b)
+    b8 b16( c d c b a) g8 g16( a b a g fis)
+    e8( c) fis( d) c4( b)
+    a'8 a16( b c b c g) fis8 fis16( g a g fis e)
+    d8( e fis d) a'4( g)
     }
   }
 >>
