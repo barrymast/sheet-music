@@ -11,38 +11,40 @@
     {
       \key c \major
     \relative c'''{
-    c8 g c g e c e c
-    b b16 c d c b a g2
-    f4 e d8 e f e16 d
-    e2 c
-    c''8 g c g e c e c
-    cis4 d g,2
-    f4 e d8 e f d
-    c g b d c2
-    g'8 g e e g g c c
-    a a f f d d b b
-    c c e e c c g' g
-    d' d b b c d e4
-    c16 d c b c4 e2
-    d16 e d c d4 f2
-    e4 g e c
+    \repeat volta 2 {
+    c8( g) c( g) e( c) e( c)
+    b b16( c d c b a) g2
+    f4( e) d8( e) f e16( d)
+    e2( c)
+    c''8( g) c( g) e( c) e( c)
+    cis4( d) g,2
+    f4( e) d8( e f d)
+    c( g b d) c2
+    g'8 g( e) e( g) g( c) c(
+    a) a( f) f( d) d( b) b(
+    c) c( e) e( c) c( g') g(
+    d') d( b) b( c d e4)
+    c16( d c b) c4( e2)
+    d16( e d c) d4( f2)
+    e4( g e c)
     d b c2
-    c8 e c e c4 a
-    g8 b g b g4 e
-    c'8 e c e c4 a
-    g8 d g d e2
-    e f
+    } % \repeat
+    c8( e) c( e) c4( a)
+    g8( b) g( b) g4( e)
+    c'8( e) c( e) c4( a)
+    g8( d) g( d) e2
+    e( f
     d c
-    e f
-    g8 d g d e2
-    e'8 e16 f g f e d c8 c16 d e d c b
-    a g f e d8 g f4 e
-    d'8 d16 e f e d c b8 b16 c d c b a 
-    g8 a b g b4 c
+    e f)
+    g8( d) g( d) e2
+    e'8 e16( f g f e d) c8 c16( d e d c b
+    a g f e) d8( g) f4( e)
+    d'8 d16( e f e d c) b8 b16( c d c b a) 
+    g8( a b g) b4( c)
     c1
-    c4 b c2
+    c4( b) c2
     b1
-    b4 g d e
+    b4( g) d( e)
     }
   }
   \new Staff \with {
