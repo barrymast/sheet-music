@@ -62,12 +62,12 @@
     g8( d fis a) g2
     d8( b) d( b) d4( g,)
     a8( d) a( d) a( d) fis4
-    c8( a b d) fis2
+    c8( a b d) \afterGrace fis2-\trill {e16[ fis]}
     g1 
-    g16 a g fis g4 d'2
-    a16 b a g a4 c2
-    b4 d b g
-    c fis, g2
+    g16( a g fis) g4( d'2)
+    a16( b a g) a4( c2)
+    b4( d b g)
+    a \afterGrace fis-\trill {e16[ fis]} g2
     d8 d b b d d g, g
     e' e c c a a fis fis
     g g b b g g d' d
