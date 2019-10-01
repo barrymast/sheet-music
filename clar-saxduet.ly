@@ -3,7 +3,9 @@
   subtitle = "No. 1 in B Flat Major, Opus 9."
   composer = "Maarten Bauer"
 }
-
+\paper {
+  #(set-paper-size "letter")
+}
 \score {
   \new GrandStaff <<
     \new Staff \with {
