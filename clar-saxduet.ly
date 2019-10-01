@@ -6,11 +6,11 @@
 
 \score {
   <<
-  \new Staff \with {instrumentName = \markup { "B" \smaller \flat "Clarinet" }}
+  \new Staff \with {
+    instrumentName = \markup { "B" \smaller \flat "Clarinet" }}
     {
-    % leave the Voice context to be created implicitly
-  \key c \major
-  \relative c'''{
+      \key c \major
+    \relative c'''{
     c8 g c g e c e c
     b b16 c d c b a g2
     f4 e d8 e f e16 d
@@ -23,6 +23,26 @@
     a a f f d d b b
     c c e e c c g' g
     d' d b b c d e4
+    c16 d c b c4 e2
+    d16 e d c d4 f2
+    e4 g e c
+    d b c2
+    c8 e c e c4 a
+    g8 b g b g4 e
+    c'8 e c e c4 a
+    g8 d g d e2
+    e f
+    d c
+    e f
+    g8 d g d e2
+    e'8 e16 f g f e d c8 c16 d e d c b
+    a g f e d8 g f4 e
+    d'8 d16 e f e d c b8 b16 c d c b a 
+    g8 a b g b4 c
+    c1
+    c4 b c2
+    b1
+    b4 g d e
     }
   }
   \new Staff \with {
@@ -42,6 +62,26 @@
     a16 b a g a4 c2
     b4 d b g
     c fis, g2
+    d8 d b b d d g, g
+    e' e c c a a fis fis
+    g g b b g g d' d
+    a' a fis fis g2
+    b,2 c
+    a g
+    b c
+    \tuplet 3/2 {a8 b a} e8 fis g2
+    d' e
+    c b
+    d e
+    \tuplet 3/2 {a,8 b a} e fis g2
+    g'1-\f
+    g4 fis g2
+    fis1
+    fis4 d a b
+    b8 b16 c d c b a g8 g16 a b a g fis
+    e8 c fis d c4 b
+    a'8 a16 b c b c g fis8 fis16 g a g fis e
+    d8 e fis d a'4 g
     }
   }
 >>
