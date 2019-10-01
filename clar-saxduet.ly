@@ -5,7 +5,7 @@
 }
 
 \score {
-  <<
+  \new GrandStaff <<
   \new Staff \with {
     instrumentName = \markup { "B" \smaller \flat "Clarinet" }}
     {
