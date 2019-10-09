@@ -43,7 +43,7 @@
     a4. a8~ a2
     r4 g8 f g a f4
     d2 a
-    \tuplet 3/2 {f8-. g-. a-.} \tuplet 3/2 {b!8-. cis-. d-.} e4 f8 d
+    \tuplet 3/2 4 {f8-. g-. a-. b!-. cis-. d-.} e4 f8 d
     c2\p d4 f
     a8 g~ g2 f4
     d1
@@ -57,8 +57,11 @@
     cis e g a
     c a-- cis a d a des a
     r4 \tuplet 3/2 {d8 e f} \grace aes16 g8 f e cis
-    \tuplet 3/2 {d8 a d,} \tuplet 3/2 {aes'8 d, g} fis2
-    r8
+    \tuplet 3/2 4 {d8 a d, aes' d, g} fis2
+    r8 d \tuplet 3/2 4 {d'8 des g, des' c g c ces g}
+    \tuplet 3/2 {bes g d} b4 \grace b16 a4 \grace a16 aes4
+    \tuplet 3/2 4 {r8 e bes' a' e, gis' g! e, bes' b' e, bes'}
+    \tuplet 3/2 4 {a8 g f ees cis b!}
   }}
   \new Staff \with {
     instrumentName = \markup "Clarinet 2"
@@ -89,7 +92,7 @@
     d'8 e d a des a c bes
     b! d, \tuplet 3/2 {b'8 c b} bes4 gis
     a4-. \tuplet 3/2 {f'8 e d} b!8 f e cis
-    \tuplet 3/2 {d8-. e-. f-.} \tuplet 3/2 {g8-. a-. b!-.} cis4 r
+    \tuplet 3/2 4 {d8-. e-. f-. g-. a-. b!-.} cis4 r
     r8 a f d a f d' a
     b g f' b bes c, cis d~
     d4 c'8 b c d b g
@@ -97,7 +100,11 @@
     b! bes
     a bes8 aes' g g,
     f2 r4 \tuplet 3/2 {a'8 g f}
-    a1
+    a1~
+    a2 \tuplet 3/2 4 {r8 g f g a f}
+    d4. a8~ a2~
+    a2. \tuplet 3/2 {a'8 aes d,}
+    g1
   }}
 >>
 
