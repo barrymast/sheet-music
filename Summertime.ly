@@ -5,7 +5,7 @@
 
 \paper {
   #(set-paper-size "letter")
-  top-margin = 1\in
+  top-margin = 0.5\in
   bottom-margin = 1\in  
 }
 
@@ -48,6 +48,16 @@
     a8 g~ g2 f4
     d1
     \bar "||"
+    r8 d, e f~ f d e f~
+    f d e f g f e d
+    a f' e a, aes d des e
+    d des c ces bes4 r4
+    \bar "||"
+    r8-"swing" e f b,!
+    cis e g a
+    c a-- cis a d a des a
+    r4 \tuplet 3/2 {d8 e f} \grace aes16 g8 f e cis
+    \tuplet 3/2 {d8 a d,} \tuplet 3/2 {aes'8 d, g} fis2
     r8
   }}
   \new Staff \with {
@@ -83,7 +93,11 @@
     r8 a f d a f d' a
     b g f' b bes c, cis d~
     d4 c'8 b c d b g
-    a,2
+    a,2 bes
+    b! bes
+    a bes8 aes' g g,
+    f2 r4 \tuplet 3/2 {a'8 g f}
+    a1
   }}
 >>
 
