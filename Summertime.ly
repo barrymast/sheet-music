@@ -113,6 +113,6 @@
   }}
 >>
 
-%  \layout {}
-%  \midi {}
+  \layout {}
+  \midi {}
 }
