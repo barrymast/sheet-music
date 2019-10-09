@@ -79,11 +79,11 @@
     \bar "|."
   }}
 
-  \new Staff \with {
-    instrumentName = \markup "Clarinet 2"}
+  \new Staff \with {instrumentName = \markup "Clarinet 2"}
     { 
       \key f \major
 
+    %\transpose f g {
     \relative c'' {
     r1
     r4
@@ -138,7 +138,9 @@
     r4 c'8^\p b c d b g
     a1
     a8 bes-. b!-. cis-. d-. r4.
-  }}
+  } % end of relative
+  %} % end of transpose
+  } % end of new Staff
 >>
 
 %  \layout {}
