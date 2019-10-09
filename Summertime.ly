@@ -69,7 +69,16 @@
     d16 des d! e f g a b! des4\fermata r
     r2-"straight" a,8 f d' f
     b,! g fis f! e bes' c cis
-
+    d a' c b! c d b g
+    r4 b'! bes2
+    a4~ \tuplet 3/2 {a8 bes a} aes aes~ aes4
+    \time 6/4
+    g8-. ees-. bes-. g-. fis1 \trill \decr
+    \time 4/4
+    d1\!
+    r8 d' cis c! b bes a aes
+    g_\markup { \italic "rit."} fis-. f!-. \decr e-. d-. r4. \!
+    \bar "|."
   }}
   \new Staff \with {
     instrumentName = \markup "Clarinet 2"
@@ -122,6 +131,15 @@
     f16 e f g a b! cis d e4 \fermata f,8 d
     c4 a8 c d4 f8 d
     a' g~ g2 f4
+    f8 d~ d2.
+    \tuplet 3/2 4 {g,,8 f' b! f' b, b,! c bes' e e, bes ges
+    f ees' a dis a b,! bes aes' d! a d, aes}
+    % time to 6/4
+    g8-. cis-. g bes a1
+    % time to 4/4
+    r4 c8 b c d b g
+    a1
+    a'8 bes b! cis d r4.
   }}
 >>
 
