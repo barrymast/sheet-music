@@ -66,7 +66,10 @@
     \grace d''16 e4 d8 a \tuplet 3/2 4 {cis8 cis, d c'! e, f}
     b!2 \grace {c16 b} bes2
     r8 f' e d a f e cis
-    d16 des d! e f g a b! des4 r
+    d16 des d! e f g a b! des4\fermata r
+    r2-"straight" a,8 f d' f
+    b,! g fis f! e bes' c cis
+
   }}
   \new Staff \with {
     instrumentName = \markup "Clarinet 2"
@@ -115,7 +118,10 @@
     f2 r4 \tuplet 3/2 {a'8 g f}
     \tuplet 3/2 {a8 d d,} \grace aes' g2.~
     g4 \tuplet 3/2 {r8 g f} \grace aes \tuplet 3/2 4 {g f d f a cis}
-    d4.
+    d4. a8 a2
+    f16 e f g a b! cis d e4 \fermata f,8 d
+    c4 a8 c d4 f8 d
+    a' g~ g2 f4
   }}
 >>
 
