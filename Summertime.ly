@@ -61,7 +61,9 @@
     r8 d \tuplet 3/2 4 {d'8 des g, des' c g c ces g}
     \tuplet 3/2 {bes g d} b4 \grace b16 a4 \grace a16 aes4
     \tuplet 3/2 4 {r8 e bes' a' e, gis' g! e, bes' b' e, bes'}
-    \tuplet 3/2 4 {a8 g f ees cis b!}
+    \tuplet 3/2 4 {a8 g f ees cis b! a g f~} f4
+    \bar "||"
+    \grace d16 e4 d8 a \tuplet 3/2 4 {cis8 cis, d c! e f}
   }}
   \new Staff \with {
     instrumentName = \markup "Clarinet 2"
@@ -105,6 +107,9 @@
     d4. a8~ a2~
     a2. \tuplet 3/2 {a'8 aes d,}
     g1
+    r4 f8 d f g f d
+    e1
+    f2
   }}
 >>
 
