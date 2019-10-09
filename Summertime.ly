@@ -73,7 +73,7 @@
     r4 b'! bes2
     a4~ \tuplet 3/2 {a8 bes a} aes aes~ aes4
     \time 6/4
-    g8-. ees-. bes-. g-. fis1 \trill \decr
+    g8-. ees-. bes-. g-. fis1_\trill \decr
     \time 4/4
     d1\!
     r8 d' cis c! b bes a aes
@@ -135,11 +135,11 @@
     \tuplet 3/2 4 {g,,8 f' b! f' b, b,! c bes' e e, bes ges
     f ees' a dis a b,! bes aes' d! a d, aes}
     % time to 6/4
-    g8-. cis-. g bes a1
+    g8-. cis-. g' bes, a1
     % time to 4/4
-    r4 c8 b c d b g
+    r4 c'8^\p b c d b g
     a1
-    a'8 bes b! cis d r4.
+    a'8 bes-. b!-. cis-. d-. r4.
   }}
 >>
 
