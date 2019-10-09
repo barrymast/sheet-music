@@ -11,9 +11,7 @@
 
 \score {
   \new GrandStaff <<
-  \new Staff \with {
-    instrumentName = \markup "Clarinet 1"
-    }
+  \new Staff \with {instrumentName = \markup "Clarinet 1"}
     {
     %\tempo "Allegro" 4 = 120
     \key f \major
@@ -80,9 +78,9 @@
     g_\markup { \italic "rit."} fis-. f!-. \decr e-. d-. r4. \!
     \bar "|."
   }}
+
   \new Staff \with {
-    instrumentName = \markup "Clarinet 2"
-    }
+    instrumentName = \markup "Clarinet 2"}
     { 
       \key f \major
 
